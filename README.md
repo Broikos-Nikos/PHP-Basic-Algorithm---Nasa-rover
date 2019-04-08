@@ -1,6 +1,11 @@
 # PHP-Basic-Algorithm---Nasa-rover
 PHP Basic Algorithm. A simple navigation algorythm of 2 objects in a 2D array.
 
+## Versions
+There are 2 versions of the current project.
+The file "nasa.php" contains the simpler version.
+The file "defensive.php" contains the same algorythm of the simpler version. However, this version takes into consideration the position of the other rover and the boundaries of the set area. This means that if a rover is going to hit another rover or if it is going off limits with the next movement, the movement will be canceled.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
